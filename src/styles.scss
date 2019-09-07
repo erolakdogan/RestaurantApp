@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://use.fontawesome.com/releases/v5.3.1/css/all.css);
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(20deg, #88dfff 0%, #ffd341 100%);
+  font-family: 'Open Sans', Arial, Helvetica, Sans-serif, Verdana, Tahoma;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 50px 0;
+}
